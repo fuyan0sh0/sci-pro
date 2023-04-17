@@ -1,0 +1,28 @@
+{
+  "name": "sci-pro",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "sci",
+    "vue3 component"
+  ],
+  "scripts": {
+    "release": "release-it"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "SCI-FE",
+  "description": "",
+  "typings": "lib/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuyan0sh0/sci-pro"
+  }
+}
