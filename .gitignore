@@ -3,6 +3,7 @@ node_modules
 es
 lib
 cache
+dist
 
 # Editor directories and files
 .vscode/*
