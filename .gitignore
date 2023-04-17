@@ -1,5 +1,8 @@
 
 node_modules
+es
+lib
+cache
 
 # Editor directories and files
 .vscode/*
