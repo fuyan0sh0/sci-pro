@@ -1,7 +1,7 @@
-import run from "../utils/run";
-import { pkgPath } from "../utils/paths";
-import { series } from "gulp";
+import run from '../utils/run';
+import { pkgPath } from '../utils/paths';
+import { series } from 'gulp';
 export const publishComponent = async () => {
-    run("release-it", `${pkgPath}/sci-pro`);
+  run('release-it', `${pkgPath}/sci-pro`);
 };
 export default series(async () => publishComponent());

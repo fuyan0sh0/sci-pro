@@ -1,0 +1,4 @@
+**.d.ts
+/packages/sci-pro
+dist
+node_modules
